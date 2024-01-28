@@ -53,7 +53,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <ResumeButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Resume</ResumeButton>
+            <ResumeButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.resume} target="_blank">Resume</ResumeButton>
           </MobileMenu>
         }
       </NavbarContainer>

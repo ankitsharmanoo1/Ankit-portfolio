@@ -1,6 +1,7 @@
 import aeeron from '../images/Aeeron.jpg';
 import Poornima from '../images/poornima.jpg';
 import Subodh from '../images/subodh.jpg';
+import Resume from '../images/Untitled.pdf'
 
 export const Bio = {
   name: "Ankit Sharma",
@@ -14,12 +15,12 @@ export const Bio = {
   "I'm Ankit Sharma, and I'm excited to be a web developer. I learned web development at Aeeron Academy, where I gained the skills to create digital solutions. Now, I'm studying for a Master of Computer Applications at Poornima University to  explore computer science further. As a full-stack developer, my goal is to create great digital solutions that help people,  businesses, and organizations.",
   github: "https://github.com/rishavchanda",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1GHFN0HzoP_NZZGKLiUKL2j87CGWFUoIV/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ankit-sharma-a5a606275/",
   gitHub: "https://github.com/ankitsharmanoo1",
   insta: "https://www.instagram.com/ankit_020201/?next=%2F",
   facebook: "https://www.facebook.com/profile.php?id=100013306382075",
-};
+}
 
 export const skills = [
   {

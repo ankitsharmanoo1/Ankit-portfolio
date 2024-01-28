@@ -13,7 +13,7 @@ export const SocialMediaIcon = styled.a`
   margin: 0 1rem;
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;               
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
