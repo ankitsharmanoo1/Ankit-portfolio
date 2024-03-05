@@ -10,7 +10,7 @@ import Linux from "../images/linux.png";
 import Pairing from "../images/pairing.jpg";
 import Unsplash from "../images/Unsplash.jpg"
 import Backend from "../images/backendmongo.jpg"
-// import ShopingWeb from "../images/ecommerce.jpg"
+import ShopingWeb from "../images/ecommerce.jpg"
 
 export const Bio = {
   name: "Ankit Sharma",
@@ -235,18 +235,18 @@ export const projects = [
     webapp: "https://ankitsharmanoo1.github.io/jsProject6/",
   },
 
-  // {
-  //   id: 3,
-  //   title: "Ecommerce web site",
-  //   date: "jan 2024 -  Working Progress",
-  //   description:
-  //   "Welcome to our clothing store, still in the making! Built with React JS, we offer jackets, hats, belts, and tees. Stay tuned as we add more styles and features to enhance your shopping experience.",
-  //   image:ShopingWeb,
-  //   tags: ["React"],
-  //   category: "React",
-  //   github: "https://github.com/ankitsharmanoo1/E-commerce",
-  //   webapp: "https://e-commerce-2-fpi1.onrender.com/",
-  // },
+  {
+    id: 3,
+    title: "Ecommerce web site",
+    date: "jan 2024 -  Working Progress",
+    description:
+    "Welcome to our clothing store, still in the making! Built with React JS, we offer jackets, hats, belts, and tees. Stay tuned as we add more styles and features to enhance your shopping experience.",
+    image:ShopingWeb,
+    tags: ["React"],
+    category: "React",
+    github: "https://github.com/ankitsharmanoo1/E-commerce",
+    webapp: "https://e-commerce-2-fpi1.onrender.com/",
+  },
   {
     id: 10,
     title: "Shoping Web",
