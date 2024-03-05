@@ -10,7 +10,7 @@ import Linux from "../images/linux.png";
 import Pairing from "../images/pairing.jpg";
 import Unsplash from "../images/Unsplash.jpg"
 import Backend from "../images/backendmongo.jpg"
-import ShopingWeb from "../images/ecommerce.jpg"
+// import ShopingWeb from "../images/ecommerce.jpg"
 
 export const Bio = {
   name: "Ankit Sharma",
