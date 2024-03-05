@@ -1,7 +1,16 @@
 import aeeron from '../images/Aeeron.jpg';
 import Poornima from '../images/poornima.jpg';
 import Subodh from '../images/subodh.jpg';
-import Resume from '../images/Untitled.pdf'
+import GernateQuorts from '../images/gernatequorts.jpg';
+import randomColor from '../images/randomColor.jpg';
+import addToProduct from '../images/addToProduct.jpg'
+import catList from '../images/cat.jpg';
+import Meme from "../images/Meme.jpg";
+import Linux from "../images/linux.png";
+import Pairing from "../images/pairing.jpg";
+import Unsplash from "../images/Unsplash.jpg"
+import Backend from "../images/backendmongo.jpg"
+import ShopingWeb from "../images/ecommerce.jpg"
 
 export const Bio = {
   name: "Ankit Sharma",
@@ -94,34 +103,15 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //     {
-  //       name: "Kotlin",
-  //       image:
-  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //     },
-  //     {
-  //       name: "XML",
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //     },
-  //     {
-  //       name: "Android Studio",
-  //       image:
-  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //     },
-  //   ],
-  // },
+  
+  
   {
     title: "Others",
     skills: [
+      {
+         name: "Linux",
+         image: Linux,
+      },
       {
         name: "Git",
         image:
@@ -167,29 +157,6 @@ export const experiences = [
       "MongoDB"
     ],
   },
-
-  // {
-  //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "Fullstack Externship",
-  //   company: "Flipr",
-  //   date: "June 2023 - July 2023",
-  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "Docker",
-  //     "AWS",
-  //     "MongoDB",
-  //   ],
-  // },
- 
- 
 ];
 
 export const education = [
@@ -214,7 +181,6 @@ export const education = [
     img: aeeron,
     school: "Aeeron Academy",
     date: "Apr 2022 - Dec 2022",
-    // grade: "92.3%",
     desc: "I successfully completed the Full Stack Web Developer (MERN) course at Aeron Academy, mastering MongoDB, Express.js, React, and Node.js. This comprehensive program equipped me with the skills to build scalable and efficient web applications, leveraging the latest technologies in the MERN stack.",
     degree: "Full-Stack Web Developer (MERN)",
   },
@@ -223,200 +189,221 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "Bubble Game",
+    date: "Aug 2022 - Aug 2022",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "Using HTML, CSS, and JavaScript, craft a fun bubble-popping game! Create colorful visuals and smooth animations for an enjoyable experience. Challenge friends worldwide, earn power-ups, and climb leaderboards. With easy controls and lots of fun, your game will keep players entertained for hours!",
+      image:
+      "https://images.crazygames.com/smarty-bubbles/20230529072500/smarty-bubbles-cover?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Html",
+      "Css",
+      "Java Script"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/ankitsharmanoo1/jsProject7",
+    webapp: "https://ankitsharmanoo1.github.io/jsProject7/",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Tic Tac Toe",
+    date: "Aug 2022 - Aug 2022",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Build your own Tic Tac Toe game using HTML, CSS, and JavaScript! Design a visually appealing interface with smooth animations. Implement intuitive controls and challenging AI opponents. Whether playing solo or with friends, enjoy hours of fun with this classic game brought to life through your creativity and coding skills.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWtkutDQL0sHepyxyyUMVTT_aOnedR3UuQew&usqp=CAU",
+    tags: [ "Html", "Css", "Java Script"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/ankitsharmanoo1/jsProject8",
+    webapp: "https://ankitsharmanoo1.github.io/jsProject8/",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Digital Clock",
+    date: "Oct 2022 - Oct 2022",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "Craft a sleek digital clock with HTML, CSS, and JavaScript! Design a visually appealing interface with customizable styles. Implement dynamic time updates and smooth transitions. Whether for personal use or as a practical addition to websites, your digital clock showcases your coding expertise while providing practical functionality.",
+      image:
+      "https://i0.wp.com/www.cssscript.com/wp-content/uploads/2017/09/Minimal-Digital-Clock.png?fit=497%2C372&ssl=1",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Html",
+      "Css",
+      "Java Script"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/ankitsharmanoo1/jsProject6",
+    webapp: "https://ankitsharmanoo1.github.io/jsProject6/",
   },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
+
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Ecommerce web site",
+    date: "jan 2024 -  Working Progress",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    "Welcome to our clothing store, still in the making! Built with React JS, we offer jackets, hats, belts, and tees. Stay tuned as we add more styles and features to enhance your shopping experience.",
+    image:ShopingWeb,
+    tags: ["React"],
+    category: "React",
+    github: "https://github.com/ankitsharmanoo1/E-commerce",
+    webapp: "https://e-commerce-2-fpi1.onrender.com/",
   },
   {
     id: 10,
-    title: "Job Finding App",
+    title: "Shoping Web",
     date: "Jun 2023 - Jul 2023",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    "The Mongoose Database Project in Node.js is a web-based application that utilizes the Mongoose library to interact with a MongoDB database. It allows users to perform CRUD (Create, Read, Update, Delete) operations on collections and manage data effectively."
+    ,image:Backend,
+    tags: ["Express js","Node js ","EJS", "My Sql"],
+    category: "Backend",
+    github: "https://github.com/ankitsharmanoo1/Mongo-DB",
+    webapp: "https://mongo-db-axd0.onrender.com/",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Counter",
+    date: "Oct 2022 - Oct 2022",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+    "Create a versatile counter with HTML, CSS, and JavaScript! Design a customizable interface to track various metrics. Implement intuitive controls for easy navigation. Whether tallying website visits or personal goals, your counter offers practical utility and showcases your coding skills in a user-friendly package for diverse applications.", 
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+    "https://miro.medium.com/v2/resize:fit:1358/1*ZPKviPYa721cojZ6uLXmiw.png", 
+    tags: ["Html", "Css", "Java Scri"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/ankitsharmanoo1/jsProject5",
+    webapp: "https://ankitsharmanoo1.github.io/jsProject5/",
   },
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Generate Quote",
+    date: "Oct 2022 - Oct 2022" ,
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+    "Craft a dynamic quote generator with HTML, CSS, and JavaScript! Design an engaging interface with responsive layout. Implement a database of inspiring quotes with random selection functionality. Whether for personal motivation or website enhancement, your generator offers a seamless user experience and showcases your coding prowess effortlessly.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    GernateQuorts,
+
+    tags: ["Html", "Css", "Java Script"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/ankitsharmanoo1/jsProject3",
+    webapp: "https://ankitsharmanoo1.github.io/jsProject3/",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "Pass the Message",
+    date: "Oct 2022",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+    "Designed with simplicity in mind, my self-note website allows users to jot down personal messages effortlessly. Utilizing HTML, CSS, and JavaScript, users can create and retrieve their notes quickly and conveniently.",
+    image:"https://shots.codepen.io/username/pen/dyGmBzg-800.jpg?version=1594286516",
+    tags: ["Html", "Css", "Java Script"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    github: "https://github.com/ankitsharmanoo1/JsProject-4",
+    webapp: "https://ankitsharmanoo1.github.io/JsProject-4/",
   },
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    title: "User Mangement System through (MySql)",
+    date: "jun 2023 - jun 2023",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    "The SQL Database Project in Node.js is a web-based application that utilizes Node.js and an SQL database to create a robust and scalable database management system. It allows users to perform CRUD (Create, Read, Update, Delete) operations on SQL databases, providing a reliable solution for managing structured data.",
+    image:Backend,
+    tags: ["Express js","Node js", "EJS", "MySql", "Google Auth"],
+    category: "Backend",
+    github: "https://github.com/ankitsharmanoo1/NodeDEploy",
+    webapp: "https://mongo-db-axd0.onrender.com/",
   },
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    title: "Cat Lists",
+    date: "Aug  2023 - Aug 2023",
+    description:"I created a straightforward project using React.js to display a list of cats fetched from an API. Leveraging React's component-based architecture, I designed an intuitive user interface for browsing cat information. By integrating with an external API, users can access dynamic content, enhancing the project's interactivity and realism.",
+    image:catList,
+    tags: [ "React Js "],
+    category: "React",
+    github: "https://github.com/ankitsharmanoo1/Cats-List",
+    webapp: "https://catapp-zebj.onrender.com/",
+  },
+  {
+    id: 11,
+    title: "Change the Color",
+    date: "Oct 2022 - Oct 2022" ,
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+    "Transforming a website's color scheme can be achieved seamlessly with HTML, CSS, and JavaScript. By integrating these technologies, developers can create interactive features that allow users to customize the appearance of a webpage according to their preferences. Whether it's a simple color switcher or a dynamic theme changer, these tools empower designers to enhance user experience by offering personalized visual elements effortlessly.",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    randomColor,
+
+    tags: ["Html", "Css", "Java Script"],
+    category: "web app",
+    github: "https://github.com/ankitsharmanoo1/JsProject-1",
+    webapp: "https://ankitsharmanoo1.github.io/JsProject-1/"
+  },
+  {
+    id: 12,
+    title: "Add the Product",
+    date: "Aug  2023 - Aug 2023",
+    description:
+    "Introducing our innovative React Product, designed to streamline your shopping experience. Easily add items to your virtual box, including their prices and purchase dates, all in one convenient interface. Simplify your shopping journey and stay organized with our user-friendly solution, perfect for both personal and professional use",
+    image: addToProduct,
+    tags: [ "React Js "],
+    category: "React",
+    github: "https://github.com/ankitsharmanoo1/React-Project",
+    webapp: "https://addproduct-zi2x.onrender.com/",
+  },
+  {
+    id: 9,
+    title: "Meme Generate",
+    date: "Nov 2023 - Nov 2023",
+    description:
+    "Introducing a meme generation web application built using HTML, CSS, and JavaScript, integrating seamlessly with meme APIs through the fetch method. Users can explore a diverse range of memes and create customized ones within the platform. While lacking download and share options, the focus remains on effortless meme creation and enjoymen",
+      image:Meme,
+    tags: [
+      "Html",
+      "Css",
+      "Java Script"
+    ],
+    category: "web app",
+    github: "https://github.com/ankitsharmanoo1/JS-MemeProject",
+    webapp: "https://ankitsharmanoo1.github.io/JS-MemeProject/",
+  },
+
+  {
+    id: 13,
+    title: "Pairing-Game",
+    date: "Dec 2022 - Dec 2022",
+    description:
+    "Dive into the colorful world of Fruit Pairing Game! Uncover matching fruit tiles in this HTML, CSS, and JavaScript-based memory challenge. With vibrant graphics it's fun for all ages. Track your scores and enjoy endless entertainment on any device. Start matching now!",
+      image:Pairing,
+    tags: [
+      "Html",
+      "Css",
+      "Java Script"
+    ],
+    category: "web app",
+    github: "https://github.com/ankitsharmanoo1/Pairing-Game",
+    webapp: "https://ankitsharmanoo1.github.io/Pairing-Game/",
+  },
+  {
+    id: 14,
+    title: "Unsplash-api",
+    date: "Dec 2022 - Dec 2022",
+    description:
+    "A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory.",
+      image:Unsplash,
+    tags: [
+      "Html",
+      "Css",
+      "Java Script"
+    ],
+    category: "web app",
+    github: "https://github.com/ankitsharmanoo1/Unsplash-api",
+    webapp: "https://ankitsharmanoo1.github.io/Unsplash-api/",
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+
+
+
+
+
+// change the color => https://github.com/ankitsharmanoo1/JsProject-1
+
+
+// node js = > 7,10,
